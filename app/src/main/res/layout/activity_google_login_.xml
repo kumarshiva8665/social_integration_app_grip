@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".google_login_Activity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/Dp"
+        android:layout_width="281dp"
+        android:layout_height="164dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/googleNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/Dp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/googleEmailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/googleNameTxt"
+        android:textColor="#000000"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/googleLogOutBtn"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/googleEmailTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginRight="5dp"
+        android:background="#0D74F6"
+        android:text="Log out"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#0D74F6" />
+</RelativeLayout>
